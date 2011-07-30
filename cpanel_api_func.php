@@ -1,4 +1,8 @@
 <?php
+//cPanel API Function
+//written by zgold [2011-07-29]
+//A function which accesses the cPanel API (version 1 and 2).
+
 function cpanel_api_func($module,$function,$params,$apiversion,$return_type)
 {
 	$cpanel_username = 'test';
